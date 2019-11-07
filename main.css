@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 10px 20px 40px;
+}
+
+
+
+
+form{
+    outline: none;
+    margin: 5px 20px 40px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+li {
+    padding: 10px;
+}
+  
+li, img {
+    max-width: 500px;
+}
+
+#repo{
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px solid darkgray;
+}
+
+.button{
+    padding: 4px 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.results{
+    margin: 5px 20px;
+}
+
+.error{
+    color: rgb(201, 0, 0);
+    margin: 5px 20px;
+}
+

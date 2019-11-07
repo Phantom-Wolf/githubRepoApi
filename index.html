@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Generate Github Repo Lists</title>
+</head>
+<body>
+
+    <header>
+        <h1>Github Repo List Generation</h1>
+    </header>
+
+    <main>
+
+        <form>
+            <label for="repo">Enter the Username of desired repo list:</label>
+            <input type="text" name="repo" id="repo" required>
+            <input class="button" type="submit" value="Find it!">
+        </form>
+
+        <section id="results" class="hidden">
+            <h2></h2>
+            <ul class="list">
+            </ul>
+        </section>
+
+        <p class="err-js error"></p>
+
+    </main>
+
+
+
+
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
